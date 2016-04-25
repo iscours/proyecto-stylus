@@ -1,1 +1,135 @@
-h1,h2,h3,h4,h5,h6,p,ul,figure{margin:0}body{background-color:#000}.uMargin{margin:0 !important}body{background-color:#dedede}.header{width:100%;}.header .nav{background-color:#2e8ece;padding:10px;}.header .nav .miUl{width:900px;margin:0 auto}.header .nav .miUl .list{display:inline;color:#fff;font-size:22px;paddingList:12px 12px;padding:paddingList}.header .nav .miUl .select{background-color:#000}.miprofile{background-image:url("../img/bg.png");background-size:cover;}.miprofile .figure{text-align:center;width:600px;margin:0 auto;padding:10px 0;}.miprofile .figure .miavatar{width:50%;border-radius:50%;border:10px solid #fff}main{width:100%;background-color:#fff;}main .sections{width:900px;margin:0 auto;padding:20px 0;}main .sections .misHabilidadesCont{overflow:hidden;}main .sections .misHabilidadesCont .ulIz,main .sections .misHabilidadesCont .ulDe{width:250px}main .sections .misHabilidadesCont .ulIz{float:left}main .sections .misHabilidadesCont .ulDe{float:right}main .sections .misHabilidadesCont .figureCont{width:250px}main .sections .miPortfolioCont{overflow:hidden;}main .sections .miPortfolioCont .figureCont{width:250px;float:left;background-color:#03a9f4;padding:5px 0;}main .sections .miPortfolioCont .figureCont img{width:100%;display:block}main .sections .miPortfolioCont .figureCont .details{text-align:center}main .sections .miPortfolioCont .figureContnth-child(2){margin:0 75px 0 75px}main .sections .miheader{background-color:#c0392b;margin-bottom:10px}main .sections .miheader h2{color:#fff;padding:10px 5px}main .sections .contFormulario .form{background-color:#a1a1a1}main .sections .contFormulario .form{padding:0;margin:0;text-align:center;input:,select,textarea;}main .sections .contFormulario .form .form--Fieldset{border:none}main .sections .contFormulario .form width 95%{box-sizing:border-box;padding:10px 10px;margin:10px 5px}main .sections .contFormulario .form input[type='submit'],main .sections .contFormulario .form border none{background-color:#000;color:#fff}
+/*Direcciones*/
+/*Utilidades Principales*/
+/*Colores Principales*/
+/*Medidas Principales*/
+/*resetear*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+figure {
+  margin: 0;
+}
+body {
+  background-color: #000;
+}
+.uMargin {
+  margin: 0 !important;
+}
+body {
+  background-color: #dedede;
+}
+.header {
+  width: 100%;
+}
+.header .nav {
+  background-color: #2e8ece;
+  padding: 10px;
+}
+.header .nav .miUl {
+  width: 900px;
+  margin: 0 auto;
+}
+.header .nav .miUl .list {
+  display: inline;
+  color: #fff;
+  font-size: 22px;
+  paddingList: 12px 12px;
+  padding: paddingList;
+}
+.header .nav .miUl .select {
+  background-color: #000;
+}
+.miprofile {
+  background-image: url("../img/bg.png");
+  background-size: cover;
+}
+.miprofile .figure {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.miprofile .figure .miavatar {
+  width: 50%;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+main {
+  width: 100%;
+  background-color: #fff;
+}
+main .sections {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+main .sections .misHabilidadesCont {
+  overflow: hidden;
+}
+main .sections .misHabilidadesCont .ulIz,
+main .sections .misHabilidadesCont .ulDe {
+  width: 250px;
+}
+main .sections .misHabilidadesCont .ulIz {
+  float: left;
+}
+main .sections .misHabilidadesCont .ulDe {
+  float: right;
+}
+main .sections .misHabilidadesCont .figureCont {
+  width: 250px;
+}
+main .sections .miPortfolioCont {
+  overflow: hidden;
+}
+main .sections .miPortfolioCont .figureCont {
+  width: 250px;
+  float: left;
+  background-color: #03a9f4;
+  padding: 5px 0;
+}
+main .sections .miPortfolioCont .figureCont img {
+  width: 100%;
+  display: block;
+}
+main .sections .miPortfolioCont .figureCont .details {
+  text-align: center;
+}
+main .sections .miPortfolioCont .figureContnth-child(2) {
+  margin: 0 75px 0 75px;
+}
+main .sections .miheader {
+  background-color: #c0392b;
+  margin-bottom: 10px;
+}
+main .sections .miheader h2 {
+  color: #fff;
+  padding: 10px 5px;
+}
+main .sections .contFormulario .form {
+  background-color: #a1a1a1;
+}
+main .sections .contFormulario .form {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  input: , select, textarea;
+}
+main .sections .contFormulario .form .form--Fieldset {
+  border: none;
+}
+main .sections .contFormulario .form width 95% {
+  box-sizing: border-box;
+  padding: 10px 10px;
+  margin: 10px 5px;
+}
+main .sections .contFormulario .form input[type='submit'],
+main .sections .contFormulario .form border none {
+  background-color: #000;
+  color: #fff;
+}
