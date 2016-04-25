@@ -1,0 +1,142 @@
+h1, h2, h3, h4, h5, h6,
+figure, ul, p {
+	margin: 0;
+}
+
+body {
+	background: #dedede;
+}
+.header {
+	width: 100%;
+}
+.header .nav {
+	background-color: #2e8ece;
+	padding: 10px 0;
+}
+.header .nav .miUl {
+	width: 900px;
+	margin: 0 auto;
+}
+.nav .miUl .list {
+	display: inline;
+	color: white;
+	font-size: 22px;
+	padding: 12px 12px;
+}
+.nav .miUl .select {
+	background-color: black;
+}
+
+.miprofile {
+	background-image: url('../img/bg.png');
+	background-size: cover;
+}
+.miprofile .figure {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.miprofile .figure .miavatar {
+	width: 50%;
+	border-radius: 50%;
+	border: 10px solid white;
+}
+
+main {
+	width: 100%;
+	background-color: white;
+}
+main .sections {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+main .sections .miheader {
+	background-color: #c0392b;
+	margin-bottom: 10px;
+}
+	.sections .miheader h2 {
+		color: white;
+		padding: 10px 5px;
+	}
+	.sections .misHabilidadesCont {
+		overflow: hidden;
+	}
+	.sections .misHabilidadesCont .ulIz, .ulDe {
+		width: 250px;
+	}
+	.sections .misHabilidadesCont .ulIz {
+		float: left;
+	}
+	.sections .misHabilidadesCont .ulDe {
+		float: right;
+	}
+	.sections .miPortfolioCont .figureCont {
+		width: 250px;
+	}
+			  .miPortfolioCont {
+			  	overflow: hidden;
+			  }
+			  .miPortfolioCont .figureCont {
+			  	float: left;
+			  }
+			  .miPortfolioCont .figureCont:nth-child(2) {
+			  	margin: 0 75px 0 75px;
+			  }
+			  .miPortfolioCont .figureCont img {
+			  	width: 100%;
+			  	display: block;
+			  }
+			  .miPortfolioCont .figureCont .details {
+			  	text-align: center;
+			  	background-color: #03A9F4;
+			  	padding: 5px 0;
+			  }
+
+/*Utilidades*/
+/*.marginDos {
+	margin: 0 75px 0 75px;
+}*/
+
+.uMargin {
+	margin: 0!important;
+}
+
+
+/*Formulario de contacto*/
+.sections .contFormulario .form {
+	background-color: #A1A1A1;
+}
+		  .form .form--Fieldset {
+		  	border: none;
+		  	padding: 0;
+		  	margin: 0;
+		  	text-align: center;
+		  }
+		  .form .form--Fieldset input, select, textarea {
+		  	width: 95%;
+		  	box-sizing: border-box;
+		  	padding: 10px 10px;
+		  	margin: 10px 5px;
+		  }
+		  .form .form--Fieldset input[type='submit']{
+		  	border: none;
+		  	background-color: black;
+		  	color: white;
+		  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

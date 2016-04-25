@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+html(lang="es")
+head
+	meta(charset="UTF-8")
+	title Portfolio
+	
+	link(rel="stylesheet", href="css/normalize.css")
+	link(rel="stylesheet", href="css/portfolio.css")
+body
+	
+	header(class="header")
+		nav.nav
+			ul.miUl
+				li.list.select
+					| Inicio
+				li.list
+					| Nosotros
+				li.list
+					| Habilidades
+				li.list
+					| Portfolio
+				li.list
+					| Contacto
+		section.miprofile
+			figure.figure
+				img.miavatar(src="img/avatar.png", alt="Edinson")
+
+	main
+		section.sections
+			header.miheader
+				h2 Quien soy?
+			div.midescription
+				p.description
+					|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vitae delectus libero esse dolor repellat, debitis commodi, ad qui id hic sit quod eligendi adipisci illo magni veritatis consectetur nesciunt!
+		section.sections
+			header.miheader
+				h2 Nosotros
+			div.midescription
+				p.description
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, hic fugiat cumque repellat, distinctio alias pariatur iste rem magnam dolorum consequuntur voluptatum sequi sint ratione amet laudantium culpa blanditiis laborum.
+		section
+			section.sections
+				header.miheader
+					h2 Habilidades
+				div.misHabilidadesCont
+					ul.ulIz
+						li.list
+							| HTML5
+						li.list
+							| CSS
+						li.list
+							| CSS3
+						li.list
+							| ANIMACIÓNES
+					ul.ulDe
+						li.list
+							| HTML5
+						li.list
+							| CSS
+						li.list
+							| CSS3
+						li.list
+							| ANIMACIÓNES
+		section
+			section.sections
+				header.miheader
+					h2 Portfolio
+				div.miPortfolioCont
+					figure.figureCont
+						img(src="img/exa-twoo.jpg", alt="Portfolio 1", title="DEMO1")
+						div.details
+							h5.title
+								| Hola Portfolio1
+					figure.figureCont
+						img(src="img/exa-twoo.jpg", alt="Portfolio 2", title="DEMO2")
+						div.details
+							h5.title
+								| Hola Portfolio 2
+					figure.figureCont
+						img(src="img/exa-twoo.jpg", alt="Portfolio 3", title="DEMO3")
+						div.details
+							h5.title
+								| Hola Portfolio 3
+		section
+			section.sections
+				header.miheader.uMargin
+					h2 Contacto
+				div.contFormulario
+					form.form(action="post")
+						fieldset.form--Fieldset
+							input(type="text", placeholder="Ingrese su nombre", required)
+						fieldset.form--Fieldset
+							input(type="text", placeholder="Ingrese su apellido", required)
+						fieldset.form--Fieldset
+							input(type="email", placeholder="Ingrese su email", required)
+						fieldset.form--Fieldset
+							select
+								option(value="0")
+									| Como Nos Conocistes
+								option(value="Google")
+									| Google
+								option(value="Facebook")
+									| Facebook
+								option(value="Twitter")
+									| Twitter
+						fieldset.form--Fieldset
+							textarea(placeholder="Su mensaje", required)
+						fieldset.form--Fieldset
+							input(type="submit", value="Enviar Formulario")
+

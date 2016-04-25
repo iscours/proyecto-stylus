@@ -1,0 +1,167 @@
+/*Direcciones*/
+$derecha: right;
+$izquierda: left;
+/*Utilidades Principales*/
+$marginCero: 0;
+$marginCenter: 0 auto;
+$center: center;
+$none: none;
+
+/*Colores Principales*/
+$bgBody: #dedede;
+$bgNav: #2e8ece;
+$colorWhite: white;
+$colorBlack: black;
+$colorSectionsHeader: #c0392b;
+$bgForm: #A1A1A1;
+/*Medidas Principales*/
+$widthPrincipal: 100%;
+
+$widthNav: 900px;
+$widthSection: 900px;
+$widthUno: 50;
+$widthDos: 50;
+$widthFigure: 600px;
+$widthMitad: 50%;
+$paddingTB: 10px;
+$paddingSuma: 10px + 10px;
+$fNav: 22px;
+
+
+h1, h2, h3, h4, h5, h6,
+figure, ul, p {
+	margin: $marginCero;
+}
+
+.uMargin {
+	margin: 0!important;
+}
+
+
+body {
+	background-color: $bgBody;
+}
+
+.header {
+	width: $widthPrincipal;
+	.nav {
+		background-color: $bgNav;
+		padding: $paddingTB;
+		.miUl {
+			width: $widthNav;
+			margin: $marginCenter;
+		}
+	}
+	.nav .miUl {
+		.list {
+			display: inline;
+			color: $colorWhite;
+			font-size: $fNav;
+			$paddingList: 12px 12px;
+			padding: $paddingList;
+		}
+		.select {
+			background-color: $colorBlack;
+		}
+	}
+}
+
+.miprofile {
+	background-image: url('../img/bg.png');
+	background-size: cover;
+	.figure {
+		text-align: center;
+		width: $widthFigure;
+		margin: $marginCenter;
+		padding: $paddingTB 0;
+		.miavatar {
+			width: $widthMitad;
+			border-radius: $widthMitad;
+			border: $paddingTB solid white;
+		}
+	}
+} 
+
+main {
+	width: $widthPrincipal;
+	background-color: $colorWhite;
+	.sections {
+		width: $widthSection;
+		margin: $marginCenter;
+		padding: $paddingSuma 0;
+		.misHabilidadesCont {
+			overflow: hidden;
+			.ulIz, .ulDe {
+				width: 50px + 200px;
+			}
+			.ulIz {
+				float: $izquierda;
+			}
+			.ulDe {
+				float: $derecha;
+			}
+			.figureCont {
+				width: 50px + 50px + 150px;
+			}
+		}
+		.miPortfolioCont {
+			overflow: hidden;
+			.figureCont {
+				width: 250px;
+				float: $izquierda;
+				img {
+					width: $widthPrincipal;
+					display: block;
+				}
+				.details {
+					text-align: $center;
+				  	background-color: #03A9F4;
+				  	padding: 5px 0;
+				}
+				&:nth-child(2){
+					margin: 0 70px + 5px 0 65px + 10px;
+				}
+			}
+		}
+		.miheader {
+			background-color: $colorSectionsHeader;
+			margin-bottom: 5px + 5px;
+		}
+	}
+	.sections .miheader {
+		h2 {
+			color: $colorWhite;
+			padding: 5px + 5px 5px;
+		}
+	}
+
+	.sections {
+		.contFormulario {
+			.form {
+				background-color: $bgForm;
+			}
+		}
+		.contFormulario .form {
+			.form--Fieldset {
+				border: $none;
+			  	padding: 0;
+			  	margin: 0;
+			  	text-align: $center;
+
+			  	input, select, textarea {
+			  		width: 95%;
+				  	box-sizing: border-box;
+				  	padding: 10px 10px;
+				  	margin: 15px - 5px  5px;
+			  	}
+			  	input[type='submit'] {
+			  		border: $none;
+				  	background-color: $colorBlack;
+				  	color: $colorWhite;
+			  	}
+			}
+		}
+	}
+
+
+}
